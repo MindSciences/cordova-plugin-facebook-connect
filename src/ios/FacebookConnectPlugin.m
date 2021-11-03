@@ -233,7 +233,7 @@
 
     [self.commandDelegate runInBackground:^{
         // For more verbose output on logging uncomment the following:
-        // [FBSettings setLoggingBehavior:[NSSet setWithObject:FBLoggingBehaviorAppEvents]];
+        [FBSettings setLoggingBehavior:[NSSet setWithObject:FBLoggingBehaviorAppEvents]];
         NSString *eventName = [command.arguments objectAtIndex:0];
         NSDictionary *params;
         double value;
