@@ -25,8 +25,8 @@
     <preference name="FACEBOOK_AUTO_LOG_APP_EVENTS" default="true" />
     <preference name="FACEBOOK_HYBRID_APP_EVENTS" default="false" />
     <preference name="FACEBOOK_ADVERTISER_ID_COLLECTION" default="true" />
-    <preference name="FACEBOOK_ANDROID_SDK_VERSION" default="12.3.0"/>
-    <preference name="FACEBOOK_IOS_SDK_VERSION" default="12.3.1"/>
+    <preference name="FACEBOOK_ANDROID_SDK_VERSION" default="13.0.0"/>
+    <preference name="FACEBOOK_IOS_SDK_VERSION" default="14.0.0"/>
     <preference name="FACEBOOK_BROWSER_SDK_VERSION" default="v12.0" />
 
     <engines>
@@ -223,7 +223,7 @@
             <access origin="https://*.fbcdn.net" />
             <access origin="https://*.akamaihd.net" />
         </config-file>
-        
+
         <hook type="after_prepare" src="scripts/browser/after_prepare.js" />
     </platform>
 </plugin>
